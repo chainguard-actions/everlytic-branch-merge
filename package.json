@@ -1,0 +1,27 @@
+{
+  "name": "branch-merge",
+  "version": "1.0.0",
+  "description": "Merge branches using GitHub API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "keywords": [
+    "github",
+    "merge",
+    "branch",
+    "automate"
+  ],
+  "author": "everlytic",
+  "license": "MIT",
+  "repository": {
+    "url": "github.com/everlytic/merge-branch"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3"
+  }
+}
